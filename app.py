@@ -5,8 +5,7 @@ from streamlit_option_menu import option_menu
 
 # Set page configuration
 st.set_page_config(page_title="Health Assistant",
-                   layout="wide",
-                   page_icon="🧑‍⚕️")
+                   layout="wide")
 
     
 # getting the working directory of the main.py
@@ -248,3 +247,4 @@ if selected == "Parkinsons Prediction":
             parkinsons_diagnosis = "The person does not have Parkinson's disease"
 
     st.success(parkinsons_diagnosis)
+
